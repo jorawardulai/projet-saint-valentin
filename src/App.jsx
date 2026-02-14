@@ -13,10 +13,10 @@ export default function App() {
   const genderText = {
     Homme: "mon Valentine",
     Femme: "ma Valentine",
-    Autre: "mon ami·e",
+    Autre: "mon/ma Valentin/e",
   };
 
-  const letterMessage = `Chère ${name}, je t'aime beaucoup et je suis tellement content(e) que tu sois là... 💌💖`;
+  const letterMessage = `Chère ${name}, je t'aime beaucoup et je te remrcie d'être avec moi... 💌💖`;
 
 
   const moveNon = () => {
@@ -75,7 +75,7 @@ export default function App() {
               className="step"
             >
               <h1>Quel est ton genre ?</h1>
-              {["Homme", "Femme", "Autre", "Préférer ne pas dire"].map(
+              {["Homme", "Femme", "Autre"].map(
                 (g) => (
                   <button
                     key={g}
