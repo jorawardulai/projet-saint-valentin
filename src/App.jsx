@@ -16,7 +16,7 @@ export default function App() {
     Autre: "mon/ma Valentin/e",
   };
 
-  const letterMessage = `Chère ${name}, je t'aime beaucoup et je te remrcie d'être avec moi... 💌💖`;
+  const letterMessage = `Chère ${name}, je t'aime beaucoup et je te remercie d'être avec moi... 💌💖`;
 
 
   const moveNon = () => {
